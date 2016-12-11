@@ -23,8 +23,8 @@ app.use(express.static('public'));
 
 
 // Database configuration with mongoose
-//mongoose.connect('mongodb://localhost/week18day3mongoose');
-mongoose.connect('mongodb://heroku_zk7hcgks:du3gj7qqelcjs6ekackt6dl4vf@ds133158.mlab.com:33158/heroku_zk7hcgks');
+mongoose.connect('mongodb://localhost/week18day3mongoose');
+//mongoose.connect('mongodb://heroku_zk7hcgks:du3gj7qqelcjs6ekackt6dl4vf@ds133158.mlab.com:33158/heroku_zk7hcgks');
 //heroku_zk7hcgks:du3gj7qqelcjs6ekackt6dl4vf@ds133158.mlab.com:33158/heroku_zk7hcgks
 var db = mongoose.connection;
 
